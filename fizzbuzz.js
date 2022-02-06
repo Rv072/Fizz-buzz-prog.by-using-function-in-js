@@ -1,9 +1,12 @@
-//  A Fizz-Buzz Program By Using A function 
-// Acceptance Criteria
-// 1. In this function we have to check wheather input is divible 3 if yes O/P-->Buzz
-// 2.if it is divisibale by 5 O/P-->Fizz
-// 3.And if it divisible by both 3 & 5 O/P--> FizzBuzz
-// And print the rest number in order upto the nth(input) number..
+// Algorithm
+// step.1 :- start
+// step 2 :- Take a input as n. 
+// step 3:- Iterate the loop from 1 to n.
+// step 4:- In if condition no. is divisible by 3 & 5 then print "fizz-buzz"
+// step 5:-In else if statment check no, is divisible by 5 then print "fizz"
+// step 6:-Again in else if statment we check no is divisible by 3 then print "buz"
+// step7:- If all the above conditions are false then goes to else case and print the no. as it is.
+// step 8:-Stop
 
 
 function myfun(num) {
